@@ -1,0 +1,18 @@
+section{
+    display: flex;
+    
+    /* justify-content: space-between; */
+}
+.MenuSection{
+    flex-shrink: 0;
+    width: 15%;
+}
+.ContentSection{
+    flex-grow: 1;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+.CartSection{
+    flex-shrink: 0;
+    width: 30%;
+}

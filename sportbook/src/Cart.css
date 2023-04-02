@@ -1,0 +1,75 @@
+.cart{
+    border-radius: 2px;
+}
+.cart .titleCart{
+    background: #142e3f;
+    border-radius: 7px 7px 0 0;
+    display: flex;
+    padding: 17px 18px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.tabList{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+.tabButton{
+    padding: 5px 18px;
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.tabButton.active{
+    background: #3a9237 !important;
+    color: #fff;
+    font-weight: 500;
+}
+.systemCartItem{
+    border-bottom: 1px solid #dbdbdb;
+}
+.cartEventName{
+    padding: 20px 20px 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.cartCoeff{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.countCoeff{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px dashed #1d1d1d;
+}
+.cartSum{
+    font-size: 22px;
+    font-weight: 500;
+    vertical-align: middle;
+    padding: 14px;
+}
+.countCoeff input{
+    border: 1px solid #aaaaaa;
+    border-radius: 2px;
+    padding: 5px;
+    width: 60px;
+    height: 30px;
+    font-size: 18px;
+}
+.totalCoeff{
+    border-radius: 2px;
+    border: 1px solid #aaaaaa;
+    font-size: 20px;
+    padding: 9px 15px;
+}
+.systemOptions{
+    display: flex;
+    justify-content: space-evenly;
+}

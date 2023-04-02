@@ -1,0 +1,106 @@
+.eventRow{
+    display: flex;
+    align-items: center;
+    height: 52px;
+    background: #fff;
+    border-radius: 7px;
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #193b52;
+}
+.eventRow:nth-child(2n) {
+    background-color: #f8fdff;
+}
+
+.start_time{
+    font-weight: 500;
+    font-size: 11px;
+    color: #193b52;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    width: var(--time-column-width,5rem);
+}
+
+.event_tournament{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+}
+.event_tournament .titleBlock{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: #193b52;
+}
+.event_tournament .titleBlock h4{
+    font-weight: 500;
+    font-size: 10px;
+    color: #a3b8c2;
+}
+.event_tournament .titleBlock p{
+    font-weight: 500;
+    font-size: 10px;
+    color: #a3b8c2;
+}
+.odds{
+    display: flex;
+}
+.oddsNumber:first-child{
+    border-left: 1px solid #cbd9e0;
+}
+.oddsNumber{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    width: 48px;
+    border-right: 1px solid #cbd9e0;
+}
+.bordredNone{
+    border-right: none;
+}
+.outcomeBut{
+    padding: 9px 0;
+    width: 38px;
+    height: 35px;
+    background: transparent;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #193b52;
+}
+.outcomeBut:hover{
+    background: #ddc437;
+    border-radius: 7px;
+    color: #fff;
+}
+.otherOdds, .otherBut{
+    width: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.otherBut{
+    background: #142e3f;
+    border-radius: 6px;
+    height: 32px;
+    margin-right: 9px;
+    margin-left: 9px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+}
